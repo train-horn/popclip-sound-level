@@ -1,0 +1,16 @@
+name: Sound Level at Distance
+identifier: com.trainhorn.popclip.soundlevel
+description: Select a sound level such as "150 dB" or "150 dB at 10 ft" to see the free-field (inverse-square) level at 25, 50, 100, 500 and 1000 ft, or meters for "m" input.
+icon: symbol:speaker.wave.3
+popclipVersion: 4151
+keywords: decibel db sound level distance inverse square noise loudness horn siren spl
+options:
+  - identifier: copytable
+    label: Also copy a table to the clipboard
+    type: boolean
+    defaultValue: false
+actions:
+  - title: Sound Level at Distance
+    regex: '(?i)\d(?:[.,]\d+)?\s*(?:db|decibels?)'
+    javaScriptFile: soundlevel.js
+    after: show-result

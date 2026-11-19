@@ -1,0 +1,10 @@
+{
+  "name": "popclip-sound-level",
+  "version": "1.0.0",
+  "private": true,
+  "description": "PopClip extension: sound level at distance (free-field inverse-square law).",
+  "license": "MIT",
+  "scripts": {
+    "test": "node --test test/"
+  }
+}

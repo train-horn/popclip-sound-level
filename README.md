@@ -1,5 +1,7 @@
 # Sound Level at Distance (PopClip extension)
 
+By [Train Horn](https://train-horn.com/), an independent US reference on train horns.
+
 Select a sound level in any app, such as `150 dB` or `150 dB at 10 ft`, and PopClip shows the estimated level farther away:
 
 ```
